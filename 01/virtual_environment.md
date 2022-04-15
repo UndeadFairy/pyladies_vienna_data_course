@@ -27,7 +27,7 @@ python3 -m pip install --user virtualenv
 ### 3. Create virtual environment
 "Second" venv in this command is a name of your environment. You can change that, but use your chosen name in all other commands.
 
-Linux: ```python3 -m venv myvenv``` OR older versions  :   ``` virtualenv -p python3 venv```
+Linux: ```python3 -m venv venv``` OR older versions  :   ``` virtualenv -p python3 venv```
 
 Windows: ```py -3 -m venv venv```
 

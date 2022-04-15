@@ -29,9 +29,11 @@ and
 
 ![fork_step_7](static/github_fork_7.PNG)
 So we should set it up on your machine to get the changes for you.
-We will setup another remote in your terminal - not only your GitHub fork of the repository, but also ours. To do that, type following command, where `upstream` is a name of second remote (take it just as a convention, not a hard rule)
+We will setup another remote in your terminal - not only your GitHub fork of the repository, but also the original. To do that, type following command, where `upstream` is a name of second remote (take it just as a convention, not a hard rule)
+
 ```shell
-$ git remote add upstream (url of original repository .git)
+$ cd pyladies_vienna_data_course
+$ git remote add upstream https://github.com/UndeadFairy/pyladies_vienna_data_course.git
 ```
 
 after typing 
